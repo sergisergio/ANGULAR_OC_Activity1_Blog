@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PostItem } from './post.item';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'PostListComponent-angular-oc';
+
+
+
+  posts = [
+
+    new PostItem('Titre1', 'Contenu1'),
+    new PostItem('Titre2', 'Contenu2'),
+    new PostItem('Titre3', 'Contenu3')
+
+  ];
+
+
 }
