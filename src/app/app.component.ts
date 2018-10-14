@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { PostItem } from './post.item';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +7,21 @@ import { PostItem } from './post.item';
 })
 export class AppComponent {
 
-
-
   posts = [
-
-    new PostItem('Titre1', 'Contenu1'),
-    new PostItem('Titre2', 'Contenu2'),
-    new PostItem('Titre3', 'Contenu3')
-
+    {
+      title: 'Premier post',
+      content: 'Contenu 1 ',
+      created_at: new Date()
+    },
+    {
+      title: 'Deuxième post',
+      content: 'Contenu 2',
+      created_at: new Date()
+    },
+    {
+      title: 'Dernier post',
+      content: 'Contenu 3',
+      created_at: new Date()
+    }
   ];
-
-
 }

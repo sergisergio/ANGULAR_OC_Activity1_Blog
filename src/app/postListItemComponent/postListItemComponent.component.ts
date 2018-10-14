@@ -9,7 +9,9 @@ export class PostListItemComponentComponent implements OnInit {
 
   @Input() postTitle: string;
   @Input() postContent: string;
+  @Input() postCreatedAt: Date;
 
+  loveIts = 0;
   constructor() { }
 
   ngOnInit() {
