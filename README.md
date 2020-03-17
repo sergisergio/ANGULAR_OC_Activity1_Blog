@@ -24,6 +24,8 @@ ng serve
 ```
 Now check out at `http://localhost:4200`
 
+![image](https://raw.githubusercontent.com/sergisergio/ANGULAR_Blog/master/angular.png)
+
 **Any Questions ?**
 
 Feel free to contact me !
